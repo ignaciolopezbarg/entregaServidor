@@ -1,0 +1,20 @@
+[
+  {
+    "cid": 1,
+    "prodsAgregado": [
+      {
+        "product": 1,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "cid": 2,
+    "prodsAgregado": [
+      {
+        "product": 2,
+        "quantity": 5
+      }
+    ]
+  }
+]

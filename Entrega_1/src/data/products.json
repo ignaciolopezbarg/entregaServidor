@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "baby-yoda",
+    "description": "figura coleccionable",
+    "code": "AB101",
+    "price": 2500,
+    "stock": 250,
+    "category": "stars_wars",
+    "img": "sin imagen"
+  },
+  {
+    "id": 2,
+    "title": "Charmander",
+    "description": "funko coleccionable",
+    "code": "AC101",
+    "price": 5000,
+    "stock": 3,
+    "category": "pokemon",
+    "img": "no hay imagenes"
+  },
+  {
+    "id": 3,
+    "title": "Harry",
+    "description": "funko coleccionable",
+    "code": "AC1011",
+    "price": 2650,
+    "stock": 30,
+    "category": "harry_potter",
+    "img": "no hay imagenes"
+  }
+]
