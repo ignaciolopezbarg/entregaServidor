@@ -28,5 +28,25 @@
     "stock": 30,
     "category": "harry_potter",
     "img": "no hay imagenes"
+  },
+  {
+    "id": 4,
+    "title": "Messi",
+    "description": "funko coleccionable",
+    "code": "AS1011",
+    "price": 50650,
+    "stock": 40,
+    "category": "sports",
+    "img": "no hay imagenes"
+  },
+  {
+    "id": 5,
+    "title": "Lewis_Hamilton",
+    "description": "funko coleccionable",
+    "code": "AS1012",
+    "price": 650,
+    "stock": 4,
+    "category": "sports",
+    "img": "no hay imagenes"
   }
 ]
