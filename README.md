@@ -9,7 +9,7 @@
 ### fs v-0.0.1
 ### script agregado : "nodemon src/app.js"
 ### Acceso en la terminal ****npm run dev***
-### Uso del servidor : Postman o Thundercli
+### Uso del servidor : Postman o Thunderclient
                                
 #### Ruta saludo y acceso : ####localhost:8080'/'
 
