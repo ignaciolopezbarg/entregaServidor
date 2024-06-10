@@ -11,10 +11,12 @@
 ### Acceso en la terminal ****npm run dev***
 ### Uso del servidor : Postman o Thundercli
                                
-### Ruta saludo y acceso : ####localhost8080:'/'
+#### Ruta saludo y acceso : ####localhost8080:'/'
 
-### Ruta obtener productos :  ###GET  ####localhost8080/products
-### Ruta agregar productos :  ###POST ####localhost8080/products 
-### Ruta borrar producto : ### DELETE ####localhost8080/products/ , y pasar id correspondiente
-### Ruta para modificar producto: ### POST ####localhost8080/products/ , y pasar id y lo que se modifica
+#### Ruta obtener productos :  ###GET  ####localhost8080/products
+#### Ruta agregar productos :  ###POST ####localhost8080/products 
+#### Ruta borrar producto : ### DELETE ####localhost8080/products/ , y pasar id correspondiente
+#### Ruta para modificar producto: ### POST ####localhost8080/products/ , y pasar id y lo que se modifica
+
+#### Ruta carts
 
