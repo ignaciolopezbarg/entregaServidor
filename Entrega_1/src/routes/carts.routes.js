@@ -72,10 +72,24 @@ router.post("/", (req, res) => {
   res.status(200).json({ message: "Producto añadido al carrito", cid: cart.cid });
 });
 
+//ruta para ver algun carrito:
+router.get("/:cid", (req,res)=> {
+  const cid =parseInt(req.params.cid, 10) ;
+  const carts = getCarts();
+  const carritoBuscado = carts.find(cart => cart.cid === cid)
+  if(!carritoBuscado){
+    res.status(404).json({ error:'Disculpe, no se encuentra el carrito'});
+  } else{
+    res.status(200).json ({message: 'Carrito encontrado', carrito: carritoBuscado})
+  }
+})
+
 // Ruta que no está definida, da un aviso
 router.get('*', (req, res) => {
-  res.status(404).send('Ruta no definida');
+ return res.status(404).send('Ruta no definida');
 });
+
+
 
 export default router;
 
