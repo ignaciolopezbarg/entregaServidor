@@ -48,5 +48,15 @@
     "stock": 4,
     "category": "sports",
     "img": "no hay imagenes"
+  },
+  {
+    "id": 6,
+    "title": "Pidgeotto",
+    "description": "funko coleccionable",
+    "code": "Ap103",
+    "price": 1850,
+    "stock": 1,
+    "category": "pokemon",
+    "img": "no hay imagenes"
   }
 ]
