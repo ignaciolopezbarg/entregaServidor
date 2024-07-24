@@ -5,8 +5,8 @@ const PORT = 8080;
 import productsRouter from "./routes/products.routes.js";
 import cartsRouter from "./routes/carts.routes.js";
 
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+//app.use(express.json());
+//app.use(express.urlencoded({ extended: true }));
 
 //Ruta de bienvenia
 app.get("/", (req, res) => {
